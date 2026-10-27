@@ -1,0 +1,73 @@
+body{
+    background-color: chocolate;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+ 
+
+    
+} 
+.rTengah{
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: blue;
+}
+
+.kartu-profile{
+    background-color: aliceblue;
+    padding: 30px;
+    width: 350px;
+    border-radius: 0px 15px 0px 15px;
+    box-shadow: 10px 11px 2px 4px rgb(14 14 14 / 10%);
+}
+
+.kartu-profile h1{
+    color:#333333;
+    margin-bottom: 5px;
+}
+.kartu-profile p{
+    color:rgb(16, 114, 114);
+    font-size: 14px;
+}
+
+.btn-detail{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.btn-detail:hover{
+    background-color: #0056b3;
+}
+#deskripsi{
+    color: brown;
+}
+.info-detail{
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #06111d;
+    border-radius: 15px 0;
+    background-color: #125699;
+}
+.btn-close{
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: antiquewhite;
+}
+.btn-close:hover{
+    color: coral;
+}
